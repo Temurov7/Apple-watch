@@ -1,0 +1,371 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* header-site-start */
+.header-site{
+    padding: 30px 0 0 0; 
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.apple-logo-link{
+    margin-right: 600px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-navbar{
+    width: 463px;
+    height: 29px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-item{
+    margin-left: 30px;
+}
+.nav-line{
+    display: inline-block;
+    color: #666;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+.line{
+    display: inline-block;
+    margin-bottom: 12px;
+    width: 138px;
+    height:1px;
+    background: #333;
+}
+.home-margin{
+    margin-left: 0;
+}
+.home-bold{
+    margin-bottom: 10px;
+}
+.header-list{
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+.header-navlink{
+    color: #333;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+.line1{
+    display: inline-block;
+    margin-bottom: 12px;
+    width: 41px;
+    height:3px;
+    background: #333;
+}
+.how-can{
+    margin-left: 40px;
+    color: #666;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* header-site-end */
+
+/* hero-section-start */
+
+.hero-section{
+    padding: 170px 0 183px 0 ;
+    background-image: url("../images/intro-bggg.png");
+    background-repeat: no-repeat;
+    background-position-x:calc(50% + 500px);
+    background-position-y:calc(50% + 35px);
+}
+.hero-content{
+    width: 490px;
+    height: 291px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.hero-title{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.hero-strong{
+    width: 455px;
+    display: flex;
+    align-items: start;
+}
+.strong{
+    width: 3px;
+    margin-right: 30px;
+    height: 120px;
+    background-color: #888;
+}
+.hero-text{
+    width: 450px;
+    height: 120px;
+    color: #777;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.hero-link{
+    display: flex;
+    width: 260px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: #C9514C;
+    color: #fff;
+}
+
+
+/* hero-section-end */
+
+/* service-section-start */
+
+.service-section{
+    padding: 70px 125px 70px 125px;   
+}
+
+.cards-section{
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-content{
+    width: 400px;
+    height: 283px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.card-title{
+    width: 300px;
+    display: inline-block;
+    color: #222;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+.card-text{
+    width: 257px;
+    display: inline-block;
+    padding-bottom: 20px;
+    color: #333;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+}
+.smarter{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.learn-more{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+.more-learn1{
+    color: #EA625C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 25.6px */
+    text-transform: uppercase;
+}
+.line3{
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    background: #EA625C;
+}
+
+/* service-section-end */
+
+/* leading-section-start */
+
+.service-section{
+    padding: 70px 125px 70px 125px ;
+}
+.leading-section{
+    padding: 70px 125px 70px 125px ;
+}
+.breathable{
+    width: 1130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+    
+}
+.nike{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.breathable-title{
+    width: 380px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.breathable-text{
+    width: 450px;
+    color: #777;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.breathable-link{
+    display: flex;
+    width: 260px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    background: #EA625C;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+    text-transform: uppercase;
+}
+.apple-watch1{
+    width: 400px;
+    height: 599.927px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.breathable-strong{
+    display: flex;
+    width: 490px;
+    height: 96px;
+}
+.strong-nike{
+     width: 3px;
+     height: 96px;
+     display: inline-block;
+    margin-right: 30px;
+    background-color: #888;
+}
+
+/* leading-section-end */
+
+/* control-section-start */
+
+.control-section{
+    height: 830px;
+    background-image: url("../images/runners\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.control-content{
+    padding-top: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 30px;
+    
+}
+.control-title{
+    width: 490px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.control-text{
+    width: 450px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.control-strong{
+    display: flex;
+}
+.control-link{
+    display: flex;
+    width: 260px;
+    padding: 12px;
+    margin-right: 232px;
+    justify-content: center;
+    align-items: center;
+    background: #EA625C;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+.strong-control{
+    width: 3px;
+    height: 120px;
+    margin-right: 40px;
+    background: #FFF;
+}
+
+
+/* control-section-end */
+
+
+
+
+
